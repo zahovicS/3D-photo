@@ -11,13 +11,13 @@
 	let app=new PIXI.Application({width: window.innerWidth, height: window.innerHeight});
 	document.body.appendChild(app.view);
 
-	let img=new PIXI.Sprite.from("img/chroma.jpg");
+	let img=new PIXI.Sprite.from("img/paisaje.jpg");
 	img.width=window.innerWidth;
 	img.height=window.innerHeight;
 	app.stage.addChild(img);
 	
 	
-	depthMap = new PIXI.Sprite.from("img/chroma-map2.png");
+	depthMap = new PIXI.Sprite.from("img/paisaje-map.png");
 	depthMap.width=window.innerWidth;
 	depthMap.height=window.innerHeight;
 	app.stage.addChild(depthMap);
